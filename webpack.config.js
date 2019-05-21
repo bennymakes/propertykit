@@ -7,7 +7,8 @@ var extractPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
-  entry: "./src/js/app.js",
+  entry: "./src/index.js",
+  resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -20,11 +21,12 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       },
       {
-        test: /\.js$/,
+        test: /\.js|jsx$/,
+        exclude: /(node_modules)/,
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env"]
+            presets: ["@babel/preset-env", "@babel/preset-react"]
           }
         }
       },
@@ -36,5 +38,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [extractPlugin]
+  plugins: [extractPlugin],
+  devServer: {
+    contentBase: path.join(__dirname, "public"),
+    compress: true,
+    port: 8080
+  }
 };

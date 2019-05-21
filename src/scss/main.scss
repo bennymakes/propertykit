@@ -1,6 +1,8 @@
 @import "colors";
+@import "fonts";
 
 .title {
   color: $mainColor;
   font-size: 2rem;
+  font-family: $coreFont;
 }
