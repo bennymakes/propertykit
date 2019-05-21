@@ -1,0 +1,20 @@
+{
+  "name": "propertykit",
+  "version": "1.0.0",
+  "description": "Property Management Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "author": "Benjamin Broad",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
