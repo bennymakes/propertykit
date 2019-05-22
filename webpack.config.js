@@ -1,10 +1,6 @@
 var path = require("path");
 var webpack = require("webpack");
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
-
-var extractPlugin = new ExtractTextPlugin({
-  filename: "main.css"
-});
+var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -26,19 +22,27 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"]
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: [["@babel/plugin-proposal-class-properties"]]
           }
         }
       },
       {
         test: /\.scss$/,
-        use: extractPlugin.extract({
-          use: ["css-loader", "sass-loader"]
-        })
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+          },
+          "css-loader"
+        ]
       }
     ]
   },
-  plugins: [extractPlugin],
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "main.css"
+    })
+  ],
   devServer: {
     contentBase: path.join(__dirname, "public"),
     compress: true,

@@ -1,8 +1,27 @@
-@import "colors";
-@import "fonts";
+@import "theme";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap_overrides";
+
+body {
+  background-color: $backgroundColor;
+  color: $mainTextColor;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
 
 .title {
-  color: $mainColor;
   font-size: 2rem;
   font-family: $coreFont;
 }
