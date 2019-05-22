@@ -9,23 +9,19 @@ class LoginArea extends Component {
       email: null,
       givenName: null,
       familyName: null,
-      title: "Start a New Application",
+      title: "Hi!",
       copyMessage:
-        "To apply for a new property please fill out the below form start to finish."
+        "Fill out your details below and hit Get Started to begin your application."
     };
   }
 
   clickLogin = (e) => {
-    console.log("Clicked the login button");
-  };
-
-  clickReset = (e) => {
-    console.log("Clicked reset password button");
+    console.log("Lets get started");
   };
 
   clickMember = (e) => {
     e.preventDefault();
-    console.log("Clicked I am a user button");
+    console.log("User has applied before.");
   };
 
   stateUser = (e) => {
@@ -39,7 +35,7 @@ class LoginArea extends Component {
       <div className="loginAreaWrapper container">
         <div className="row justify-content-center align-items-center">
           <div className="col-sm-10">
-            <h2> {this.state.title} </h2>
+            <h1> {this.state.title} </h1>
             <p> {this.state.copyMessage}</p>
             <div className="input-group my-2">
               <div className="input-group-prepend">
@@ -73,14 +69,11 @@ class LoginArea extends Component {
               />
             </div>
 
-            <button
-              className="btn btn-primary btn-sm"
-              onClick={this.clickLogin}
-            >
-              Login
+            <button className="btn btn-primary" onClick={this.clickLogin}>
+              Get Started
             </button>
             <button className="btn btn-link  btn-sm" onClick={this.clickMember}>
-              Already a User
+              I have applied before
             </button>
           </div>
         </div>
