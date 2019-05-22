@@ -2,9 +2,17 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "bootstrap_overrides";
 
+html {
+  height: 100%;
+}
+
 body {
-  background-color: $backgroundColor;
+  background-color: $backgroundColor2;
+  background-image: $backgroundImage2;
+  background-size: cover;
   color: $mainTextColor;
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -19,6 +27,13 @@ h2 {
 p {
   font-size: 0.8rem;
   font-weight: 100;
+}
+
+.react-svg {
+}
+
+.logo {
+  width: 70%;
 }
 
 .title {

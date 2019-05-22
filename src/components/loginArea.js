@@ -38,7 +38,7 @@ class LoginArea extends Component {
     return (
       <div className="loginAreaWrapper container">
         <div className="row justify-content-center align-items-center">
-          <div className="col-sm-6">
+          <div className="col-sm-10">
             <h2> {this.state.title} </h2>
             <p> {this.state.copyMessage}</p>
             <div className="input-group my-2">
