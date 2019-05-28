@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="500"
+   height="317"
+   viewBox="0 0 132.29166 83.872919"
+   version="1.1"
+   id="svg995">
+  <defs
+     id="defs989" />
+  <metadata
+     id="metadata992">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="fill:#443355;fill-opacity:1"
+     id="layer1"
+     transform="translate(0,-213.12707)">
+    <g
+       style="fill:#443355;fill-opacity:1"
+       id="g1564"
+       transform="matrix(1.5493699,0,0,1.5493699,-59.177904,84.199356)">
+      <path
+         id="rect893-8"
+         d="M 71.050694,83.212958 54.620172,105.22505 38.19482,127.23869 h 32.855874 2.439127 l -0.0016,0.002 h 2.224672 l 8.007263,-10.72854 14.759823,-19.772437 9.714131,13.013677 h -0.008 l 1.07332,1.43867 0.28319,0.37931 5.0214,-0.0176 v 0.0176 3.7176 0.0139 2.9838 0.0124 l 1.80041,2.41226 v -0.0119 l 3.76669,5.04723 H 80.55399 l -1.121894,1.4919 h 41.812954 l 0.002,0.002 h 2.22622 l -7.1081,-9.525 v -7.96238 h -5.94331 L 98.480066,93.755466 82.049026,115.76704 74.602971,125.74679 H 71.050694 41.531565 l 14.759308,-19.77708 14.759821,-19.77244 2.882511,3.860747 0.595312,0.798401 0.270269,0.361736 0.0083,0.01085 h 2.227255 l -0.0083,-0.01085 h 0.01913 2.535248 v 3.396173 0.02585 2.983796 l 1.800405,2.411737 4.113448,5.51078 1.11311,-1.49294 -5.226558,-7.001635 v -7.634158 h -5.698357 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#443355;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.79999971;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         transform="scale(1.0745026,0.93066317)"
+         id="text942-0"
+         y="147.44118"
+         x="34.751934"
+         style="font-style:normal;font-weight:normal;font-size:11.31007862px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#443355;fill-opacity:1;stroke:none;stroke-width:0.28275192"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#443355;stroke-width:0.28275192;fill-opacity:1"
+           y="147.44118"
+           x="34.751934"
+           id="tspan940-3">PROPERTYKIT</tspan></text>
+    </g>
+  </g>
+</svg>

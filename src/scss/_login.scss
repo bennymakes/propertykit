@@ -1,0 +1,43 @@
+//Login Styles
+
+.login {
+  min-height: 10rem;
+
+  .top {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    .logoContainer {
+      width: 14rem;
+      height: 10rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+
+      .logo {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .biline {
+      font-size: 0.9rem;
+      color: #9f9f9f;
+      font-weight: 200;
+    }
+  }
+  .middle {
+    margin: 0.5rem;
+  }
+  .bottom {
+    margin-top: 0.5rem;
+
+    .buttonPad {
+      margin: 0.25rem;
+    }
+    .registerButton {
+      font-size: 0.6rem;
+    }
+  }
+}

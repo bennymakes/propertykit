@@ -1,9 +1,11 @@
 @import "theme";
-@import "../../node_modules/bootstrap/scss/bootstrap";
 @import "bootstrap_overrides";
 
-html {
+@import "login";
+html,
+#root {
   height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -13,8 +15,39 @@ body {
   background-size: cover;
   color: $mainTextColor;
   height: 100%;
+  width: 100%;
   margin: 0;
   overflow: hidden;
+  font-family: $coreFont;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Approw {
+  width: auto;
+}
+
+.flex-item {
+  background-color: tomato;
+  padding: 20px;
+  height: auto;
+  line-height: auto;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 18rem;
 }
 
 h1 {
