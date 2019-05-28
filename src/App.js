@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       user: null,
       title: "PropertyKit",
-      biline: "Premium Property Management Software"
+      biline: "Property Management Software"
     };
   }
 
